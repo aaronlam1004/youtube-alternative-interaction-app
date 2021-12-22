@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var app = require('../app');
+var http = require('http');
+
+// Set up port
+const PORT = 8080
+app.set('port', PORT);
+
+// Create server
+var server = http.createServer(app);
+
+server.listen(PORT);

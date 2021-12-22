@@ -1,0 +1,31 @@
+#channel-container {
+    margin-left: 2em;
+}
+
+#title-block strong {
+    font-size: 4em;
+    margin-left: 0.5em;
+    position: relative;
+    top: -0.2em;
+}
+
+#title-block span {
+    position: relative;
+    top: -3em;
+}
+
+#title-block ul {
+    list-style: none;
+    font-size: 1.5em;
+    margin-left: -0.75em;
+}
+
+#title-block ul li {
+    margin: auto auto 0.25em auto;
+}
+
+#title-block ul u {
+    font-weight: bold;
+    color: #FF0000;
+    margin-right: 0.2em;
+}

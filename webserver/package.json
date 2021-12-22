@@ -1,0 +1,20 @@
+{
+  "name": "webserver",
+  "version": "0.0.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "google-auth-library": "^7.10.2",
+    "googleapis": "^92.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

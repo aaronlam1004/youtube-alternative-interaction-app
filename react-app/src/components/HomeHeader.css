@@ -1,0 +1,54 @@
+header {
+    margin-top: 1em;
+    background: #555555;
+    margin: 0;
+    height: 2.58em;
+}
+
+#home-button {
+    text-decoration: none;
+    color: #fd6565;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em 1.5em 0.75em 1.5em;
+    float: left;
+}
+
+#home-button:hover {
+    color: #c04040;
+}
+
+#profile-section {
+    background: #BBBBBB;
+    float: right;
+    height: 2.58em;
+    padding-left: 0.5em;
+}
+
+#profile-section strong {
+    position: relative;
+    padding: 0.5em 0.75em 0.25em 0.5em;
+    top: 0.2em;
+    color: #6060ee;
+}
+
+#profile-section img {
+    width: 2.2em;
+    height: 2em;
+    margin: 0.25em 0.5em auto auto;
+    border-radius: 50%;
+}
+
+#login-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #fd6565;
+    margin: 0;
+    padding: 0.5em 1.5em 0.58em 1.5em;
+    float: right;
+}
+
+#login-button:hover {
+    background-color: #c04040;
+    font-weight: bold;
+}

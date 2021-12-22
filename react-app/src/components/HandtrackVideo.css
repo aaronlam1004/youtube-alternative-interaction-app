@@ -1,0 +1,9 @@
+#handtracking-container {
+    margin-left: 0;
+}
+
+#handtracking-video {
+    margin: 0;
+    padding: 0;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,121 @@
+#video-page {
+    justify-content: center;
+    text-align: center;
+}
+
+#yt-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-page iframe {
+    /* pointer-events: none; */
+    border-width: 0.35em;
+    border-style: solid;
+    border-image: linear-gradient(105deg, #e9a5a5, #fd6565) 1 1; 
+}
+
+.video-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.time-skip {
+    border: 1px solid #FF0000;
+    border-radius: 10%;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    margin: auto 0.5em auto 0.5em;
+    font-size: 1em;
+}
+
+.video-button:hover {
+    color: #FF0000;
+}
+
+.controller {
+    font-size: 1.2em;
+}
+
+#video-slider {
+    width: 52em;
+    height: 0.5em;
+    background: #555555;
+    opacity: 0.5;
+    -webkit-appearance: none;
+    position: relative;
+    top: -0.3em;
+}
+
+#video-slider:hover {
+    opacity: 1;
+}
+
+::-webkit-slider-runnable-track {
+    background-image: linear-gradient(
+        to right, 
+        #FF0000 var(--progress), 
+        #555555 var(--progress)
+    );
+    height: 0.5em;
+}
+
+::-moz-range-track {
+    background-image: linear-gradient(
+        to right, 
+        #FF0000 var(--progress), 
+        #555555 var(--progress)
+    );
+    height: 0.5em;
+}
+
+::-ms-track {
+    background-image: linear-gradient(
+        to right, 
+        #FF0000 var(--progress), 
+        #555555 var(--progress)
+    );
+    height: 0.5em;
+}
+
+::-moz-range-progress {
+    background: #FF0000;
+}
+
+::-ms-fill-lower {
+    background: #FF0000;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1.5em;
+    background: #FF0000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -0.5em;
+}
+
+::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1.5em;
+    background: #FF0000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -0.5em;
+}
+
+::-ms-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1.5em;
+    background: #FF0000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -0.5em;
+}
